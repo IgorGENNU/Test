@@ -1,0 +1,23 @@
+body {
+    min-height: 100vh;
+    background-image: radial-gradient(circle at 50% 100%, #1b1b35, #121225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* color: white; */
+}
+
+.canvas {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+h1 {
+    font-size: 65px;
+    text-transform: uppercase;
+    background: linear-gradient(white 20%, red 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
